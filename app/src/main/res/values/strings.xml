@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">News Hunter</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_news">No relevant News found</string>
+    <string name="title">The Heading of News</string>
+    <string name="author">The Author</string>
+    <string name="by">By:  </string>
+    <string name="section">Section</string>
+    <string name="date">2018-09-07 10:50</string>
+</resources>
