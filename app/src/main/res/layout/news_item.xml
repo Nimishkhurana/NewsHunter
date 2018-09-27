@@ -23,26 +23,14 @@
             android:textColor="@color/black"
             tools:text="@string/title" />
 
-        <LinearLayout
+        <TextView
+            android:padding="@dimen/margin8"
+            android:id="@+id/author_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="@dimen/margin8"
-            android:layout_gravity="bottom">
+            tools:text="@string/author"
+            android:layout_gravity="bottom"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:text="@string/by"
-                android:paddingRight="@dimen/padding2"/>
-
-            <TextView
-                android:id="@+id/author_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                tools:text="@string/author" />
-        </LinearLayout>
 
         <TextView
             android:id="@+id/section_view"
@@ -60,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight = "true"
-            android:layout_gravity="bottom|right"
+            android:layout_gravity="bottom|end"
             android:padding="@dimen/margin8"
             tools:text="@string/date" />
 
